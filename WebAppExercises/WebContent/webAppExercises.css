@@ -1,0 +1,32 @@
+
+thead {
+  font-family: Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#rows{
+  font-family:  Helvetica, sans-serif;
+
+  width: 100%;
+}
+
+#rows td, #rows th, thead {
+  border: 1px solid #ddd;
+  padding: 20px;
+}
+
+#rows tr:nth-child(even){background-color: #FFFFFC;}
+
+#rows tr:hover {background-color: #F5DDDD;}
+
+ thead   {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-align: center;
+ background-color: #00838F;
+  color: white;
+}
+th  .link {
+text-decoration: underline;
+}
